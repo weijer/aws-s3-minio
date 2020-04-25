@@ -1,7 +1,7 @@
 {
-    "name": "klinson/aws-s3-minio",
+    "name": "strack/aws-s3-minio",
     "description": "Flexible and feature-complete minio client for PHP, depend on aws/aws-sdk-php",
-    "keywords": ["minio", "s3", "aws", "cloud", "klinson"],
+    "keywords": ["minio", "s3", "aws", "cloud", "klinson", "Aliyun OSS"],
     "homepage": "https://github.com/klinson/aws-s3-minio",
     "license": "MIT",
     "authors": [

@@ -38,7 +38,7 @@ class MinioClient
             'region' => $config['region'] ?? '',
             'version' => $config['version'] ?? '',
             'endpoint' => $config['endpoint'] ?? '',
-            'use_path_style_endpoint' => true, //minio必须开启
+            'use_path_style_endpoint' => $config['use_path_style_endpoint'] ?? true, //minio必须开启
         ]);
 
         $this->bucket = $config['bucket'] ?? '';
